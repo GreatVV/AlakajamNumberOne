@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1355524602406280}
+  m_IsPrefabParent: 1
+--- !u!1 &1355524602406280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4372155512138822}
+  - component: {fileID: 114656503265957188}
+  m_Layer: 0
+  m_Name: Factory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4372155512138822
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1355524602406280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114656503265957188
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1355524602406280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c27375871d4fc295bfbe10bc2bb7ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Descs:
+  - Type: 1
+    ColorType: 1
+    View: {fileID: 1768740856775964, guid: d374a7aa442196846b63fac41de2a988, type: 2}
+    Icon: {fileID: 21300000, guid: b07f7a6d45aad814e8e5b16e69fb61f1, type: 3}
+  - Type: 1
+    ColorType: 2
+    View: {fileID: 1981824852370342, guid: 8938a085106dba642900a108e6c47c80, type: 2}
+    Icon: {fileID: 21300000, guid: e050dc06cf996754aa907b5aabce5b17, type: 3}
+  - Type: 1
+    ColorType: 3
+    View: {fileID: 1703647916984124, guid: 75c2fd1d9d4b6f344b931aaeb625b482, type: 2}
+    Icon: {fileID: 21300000, guid: c4ae89dfc6835c141bee48c549a1e347, type: 3}
+  - Type: 2
+    ColorType: 1
+    View: {fileID: 1184549580344144, guid: a9e2ab1674e807e42b54021fafe4d803, type: 2}
+    Icon: {fileID: 21300000, guid: 68d122a1dbe59954f882647419b52975, type: 3}
+  - Type: 2
+    ColorType: 2
+    View: {fileID: 1910128856892296, guid: 58e02808de81a7b45989e2aa777310f9, type: 2}
+    Icon: {fileID: 21300000, guid: 6e74fa4dcea4118498b37452d8f95d58, type: 3}
+  - Type: 2
+    ColorType: 3
+    View: {fileID: 1627841249317174, guid: 9a57ac588f49e464186d320a573bd2af, type: 2}
+    Icon: {fileID: 21300000, guid: 980eeccd40a34da4eb801a5329fa716b, type: 3}
+  - Type: 3
+    ColorType: 1
+    View: {fileID: 1667958125733802, guid: 0180d5c9568c208499dfa1af8df69508, type: 2}
+    Icon: {fileID: 21300000, guid: e09b4840bce6b6e44b5f361e73c797c6, type: 3}
+  - Type: 3
+    ColorType: 2
+    View: {fileID: 1163295025137660, guid: a593676d21a83cc4fb6c99aef8f1a0e3, type: 2}
+    Icon: {fileID: 21300000, guid: 5972c4bd8011bd44387e5df4ba1646ac, type: 3}
+  - Type: 3
+    ColorType: 3
+    View: {fileID: 1303327930326152, guid: a0314fcd3926b584f848ef85d0ef9b66, type: 2}
+    Icon: {fileID: 21300000, guid: 14b18f0ecf98c994ca55baa7d12f0024, type: 3}
